@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class LanguageController extends Controller
 {
     public function index () {
-    $languages = ['HTML', 'CSS', 'JavaScript','PHP'];
+    $languages = ['HTML', 'CSS', 'JavaScript','PHP','Ruby'];
     return view('language.index', ['languages' => $languages]);
     }
 }
